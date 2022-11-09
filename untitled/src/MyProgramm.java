@@ -28,8 +28,8 @@ public class MyProgramm {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
-        Factorial_1 g = new Factorial_1;
-        Factorial_2 h = new Factorial_2;
+        Factorial_1 g = new Factorial_1();
+        Factorial_2 h = new Factorial_2();
         System.out.println("Factorial n = " + g.Factorial(n));
         System.out.println("First_factorial : ");
         h.First_factorial(n);
