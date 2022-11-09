@@ -14,11 +14,11 @@ public class MyProgramm {
     public static class Factorial_2 {
         int n;
          void First_factorial(int n) {
-            System.out.println(1);
+            System.out.print(1 + " ");
             int r = 1;
             for (int i = 1; i <= n; i++) {
                 r *= i;
-                System.out.println(r);
+                System.out.print(r + " ");
             }
         }
     }
